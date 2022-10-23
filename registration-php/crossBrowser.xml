@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Default suite">
+
+<!-- Default suite -->
+
+<parameter name="browser" value="automation"/>
+<test name="Default test" verbose="2">
+
+
+<classes>
+
+<class name="registration_php.testcase1"/>
+
+</classes>
+
+</test>
+
+<!-- Default test -->
+
+
+</suite>

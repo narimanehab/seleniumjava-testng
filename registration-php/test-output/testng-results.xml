@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-23T19:44:37 EET" name="Default suite" finished-at="2022-10-23T19:45:09 EET" duration-ms="31354">
+    <groups>
+    </groups>
+    <test started-at="2022-10-23T19:44:37 EET" name="Default test" finished-at="2022-10-23T19:45:09 EET" duration-ms="31354">
+      <class name="registration_php.testcase1">
+        <test-method is-config="true" signature="open_browers(java.lang.String)[pri:0, instance:registration_php.testcase1@2df9b86]" started-at="2022-10-23T19:44:37 EET" name="open_browers" finished-at="2022-10-23T19:45:05 EET" duration-ms="27740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_browers -->
+        <test-method signature="registration()[pri:0, instance:registration_php.testcase1@2df9b86]" started-at="2022-10-23T19:45:05 EET" name="registration" finished-at="2022-10-23T19:45:08 EET" duration-ms="3222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method is-config="true" signature="failed_screenshot(org.testng.ITestResult)[pri:0, instance:registration_php.testcase1@2df9b86]" started-at="2022-10-23T19:45:08 EET" name="failed_screenshot" finished-at="2022-10-23T19:45:09 EET" duration-ms="348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registration status=SUCCESS method=testcase1.registration()[pri:0, instance:registration_php.testcase1@2df9b86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failed_screenshot -->
+      </class> <!-- registration_php.testcase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
